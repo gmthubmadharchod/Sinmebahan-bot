@@ -69,7 +69,7 @@ photozip = 'https://ar-hosting.pages.dev/1752942112328.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminSbot")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminS2bot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1"), InlineKeyboardButton(text="⚜️ Group", url="https://t.me/BotChatAll")],
@@ -555,7 +555,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
+        photo="https://ar-hosting.pages.dev/1752942105659.jpg",
         caption=caption
     )
 
@@ -592,21 +592,21 @@ async def start(bot, m: Message):
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🕸️ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminSbot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
+            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminS2bot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
         ])
         
         await start_message.edit_text(
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use button : **✨ Commands** to get started 🌟\n\n"
-            f"If you face any problem contact -  [{CREDIT}⁬](t.me/Contact_AdminSbot)\n", disable_web_page_preview=True, reply_markup=keyboard
+            f"If you face any problem contact -  [{CREDIT}⁬](t.me/Contact_AdminS2bot)\n", disable_web_page_preview=True, reply_markup=keyboard
         )
     else:
         await asyncio.sleep(2)
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminSbot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
+            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminS2bot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
         ])
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
@@ -621,7 +621,7 @@ async def back_to_main_menu(client, callback_query):
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("✨ Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
-            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminSbot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
+            [InlineKeyboardButton(text="📞 Contact", url="https://t.me/Contact_AdminS2bot"), InlineKeyboardButton(text="📢 Channel", url="https://t.me/Team_Sonu1")],
         ])
     
     await callback_query.message.edit_media(
@@ -739,7 +739,7 @@ async def upgrade_button(client, callback_query):
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
            f"<b>💵 Monthly Plan: 300 INR</b>\n\n"
-           f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](tg://user?id={OWNER})\n"
+           f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](t.me/Contact_AdminS2bot)\n"
     )  
     
   await callback_query.message.edit_media(
@@ -903,7 +903,7 @@ async def upgrade_plan(client, message):
 
         "📌 **Payment Methods**:\n"
 
-        "- QR Code: [Click Here for QR](https://ar-hosting.pages.dev/1753559081448.jpg)\n"
+        "- QR Code: [Click Here for QR](https://ar-hosting.pages.dev/1756084796412.jpg)\n"
 
         "- For International payment, Contact Admin\n\n"
 
@@ -921,7 +921,7 @@ async def upgrade_plan(client, message):
 
         [
 
-            [InlineKeyboardButton("🧾 Get QR Code", url="https://ar-hosting.pages.dev/1753559081448.jpg")],
+            [InlineKeyboardButton("🧾 Get QR Code", url="https://ar-hosting.pages.dev/1756084796412.jpg")],
 
             [InlineKeyboardButton("💬 Contact Now", url="https://t.me/Contact_AdminS2bot")],
 
