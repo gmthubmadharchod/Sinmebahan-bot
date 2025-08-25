@@ -878,6 +878,58 @@ async def y2t_button(client, callback_query):
       ),
       reply_markup=keyboard
   )
+  
+@app.on_message(filters.command("upgrade"))
+
+async def upgrade_plan(client, message):
+
+    text = (
+
+        "💎 **Upgrade to Premium** 💎\n\n"
+
+        "🚀 **Exclusive Premium Pro Features**\n\n"
+
+        "🪙 **10-Day Plan**\n"
+
+        "💰 Rs 100 🇮🇳 / **$1.20 USDT**\n\n"
+
+        "🪙 **20-Day Plan**\n"
+
+        "💰 Rs 200 🇮🇳 / **$2.40 USDT**\n\n"
+
+        "🪙 **Monthly Plan**\n"
+
+        "💰 Rs 280 🇮🇳 / **$3.36 USDT**\n\n"
+
+        "📌 **Payment Methods**:\n"
+
+        "- QR Code: [Click Here for QR](https://ar-hosting.pages.dev/1753559081448.jpg)\n"
+
+        "- For International payment, Contact Admin\n\n"
+
+        "📤 **After Payment**:\n"
+
+        "1️⃣ Send a payment screenshot below 👇\n"
+
+        "2️⃣ Contact: Admin to complete your purchase 🤝\n\n"
+
+        "💌 We're here for you! 💕"
+
+    )
+
+    buttons = InlineKeyboardMarkup(
+
+        [
+
+            [InlineKeyboardButton("🧾 Get QR Code", url="https://ar-hosting.pages.dev/1753559081448.jpg")],
+
+            [InlineKeyboardButton("💬 Contact Now", url="https://t.me/Contact_AdminS2bot")],
+
+        ]
+
+    )
+
+    await message.reply_text(text, reply_markup=buttons, disable_web_page_preview=True) 
          
 @bot.on_message(filters.command(["id"]))
 async def id_command(client, message: Message):
