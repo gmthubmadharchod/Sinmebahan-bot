@@ -879,7 +879,7 @@ async def y2t_button(client, callback_query):
       reply_markup=keyboard
   )
   
-@app.on_message(filters.command("upgrade"))
+@bot.on_message(filters.command("upgrade"))
 
 async def upgrade_plan(client, message):
 
