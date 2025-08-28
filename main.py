@@ -891,15 +891,15 @@ async def upgrade_plan(client, message):
 
         "🪙 **10-Day Plan**\n"
 
-        "💰 Rs 100 🇮🇳 / **$1.20 USDT**\n\n"
+        "💰 Rs 200 🇮🇳\n\n"
 
         "🪙 **20-Day Plan**\n"
 
-        "💰 Rs 200 🇮🇳 / **$2.40 USDT**\n\n"
+        "💰 Rs 400 🇮🇳\n\n"
 
         "🪙 **Monthly Plan**\n"
 
-        "💰 Rs 280 🇮🇳 / **$3.36 USDT**\n\n"
+        "💰 Rs 5000 🇮🇳\n\n"
 
         "📌 **Payment Methods**:\n"
 
@@ -1208,7 +1208,7 @@ async def txt_handler(bot: Client, m: Message):
 
             elif "classplusapp" in url:
                 signed_api = f"https://cpatbots-updatee.onrender.com/extract_keys?url={url}@bots_updatee&user_id={user_id}"
-                response = requests.get(signed_api, timeout=20)
+                response = requests.get(signed_api, timeout=90)
                 url = response.text.strip()
                 url = response.json()['url']  
                 
