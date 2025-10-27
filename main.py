@@ -738,7 +738,7 @@ async def upgrade_button(client, callback_query):
            f"• 🎓 Utkarsh Protection(Video + PDF)\n"
            f"• 🎓 All Non DRM+AES Encrypted URLs\n"
            f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
-           f"<b>💵 Monthly Plan: 500 INR</b>\n\n"
+           f"<b>💵 Monthly Plan: 800 INR</b>\n\n"
            f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](t.me/Contact_AdminS2bot)\n"
     )  
     
@@ -891,15 +891,15 @@ async def upgrade_plan(client, message):
 
         "🪙 **10-Day Plan**\n"
 
-        "💰 Rs 200 🇮🇳\n\n"
+        "💰 Rs 300 🇮🇳\n\n"
 
         "🪙 **20-Day Plan**\n"
 
-        "💰 Rs 400 🇮🇳\n\n"
+        "💰 Rs 600 🇮🇳\n\n"
 
         "🪙 **Monthly Plan**\n"
 
-        "💰 Rs 500 🇮🇳\n\n"
+        "💰 Rs 800 🇮🇳\n\n"
 
         "📌 **Payment Methods**:\n"
 
